@@ -1,2 +1,14 @@
-this Project is only made for education purposes.
-it needs to be compared with the objects Calesthenics project
+*Der Code sieht nicht gut aus. Er wurde nur verwendet, um den Kontrast zwischen einem nicht objektorientierten Code und einem objektorientierten Code anzuzeigen (wie im* https://github.com/Kaskrouts/Mars_Rover_Objet-Calesthenics_Coding-Challenge.git *gezeigt)*
+
+Auf der Oberfläche werden zufällig Hindernisse platziert. Die Instruktionen sind eine Sequenz von Buchstaben, die den Roboter steuern.  Gültige Buchstaben sind:
+
+* l - Dreht den Rover gegen den Uhrzeigersinn (left)
+* r - Dreht den Rover mit dem Uhrzeigersinn (right)
+* f - Bewegt den Rover einen Schritt vorwärts (forward)
+* b - Bewegt den Rover einen Schritt rückwärts (backward)
+
+Ein Beispiel für eine Kontrollsequenz, bei der der Rover zwei Schritte vorwärts macht, sich im Uhrzeiger dreht und dann zwei Schritte rückwärts moonwalkt wäre ```ffrbb```.
+
+Der Aufruf wäre entsprechend: ```./gradlew run --args="ffrbb"```
+
+Das Programm gibt eine Karte des Planeten nach jedem Schritt aus. Hindernisse sind mit ```#``` markiert und der Rover durch einen Pfeil.
